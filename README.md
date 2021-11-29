@@ -1,4 +1,4 @@
-# HCI_Graph-Visualisation
+# HCI Graph Visualisation
 
 Creating a webpage dashboard containing 5 different visualization graph for titanic3.csv data.
 
