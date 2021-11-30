@@ -2,13 +2,13 @@ body {
   background: #ecf0f1;
 }
 
-#hex3 {
+#hex {
   width: 200px;
   height: 200px;
 }
 
 #color3 {
-  background-color: #D93;
+  background-color: rgb(164, 131, 241);
 }
 
 .hexagon-wrapper {
@@ -72,6 +72,6 @@ transform-origin:25% 75%;
 
 .hexagon:hover {
 background-color: #ffffff;
-color: #ea242a;
+color: #a058ff;
 box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.2);
 }

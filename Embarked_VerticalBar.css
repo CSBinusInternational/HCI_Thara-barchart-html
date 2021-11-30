@@ -1,6 +1,4 @@
-
-
-body, table, input, select, textarea {
+body, table, input, select, textarea{
 
 }
 
@@ -49,8 +47,8 @@ body, table, input, select, textarea {
 			border-bottom:2px solid rgba(0,0,0,0.5);
 			background:repeating-linear-gradient(
 				180deg,
-				rgba(170,170,170,0.7) 0,
-				rgba(170,170,170,0.7) 1px,
+				rgba(37, 21, 126, 0.692) 0,
+				rgba(37, 21, 126,0.7) 1px,
 				transparent 1px,
 				transparent 20%
 			);
@@ -109,7 +107,7 @@ body, table, input, select, textarea {
 		.graph td {
 			width:100%;
 			height:100%;
-			background:#F63;
+			background:rgb(146, 105, 199);
 			border-radius:0.5em 0.5em 0 0;
 			transition:background 0.5s;
 		}
