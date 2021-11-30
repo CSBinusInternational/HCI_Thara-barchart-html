@@ -1,0 +1,63 @@
+.pieContainer {
+    height: 400px;
+    margin-left: 360px;
+    margin-top: 86px;
+}
+
+.pieBackground {
+    background-color: grey;
+    position: absolute;
+    height: 350px;
+    width: 700px;
+    border-radius: 700px 700px 0 0;
+    box-shadow: 5px 4px 5px #000;
+}
+
+.pie {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 350px;
+    clip: rect(0px, 350px, 700px, 0px);
+}
+.hold {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50px;
+    clip: rect(0px, 700px, 700px, 350px);
+}
+
+#pieSlice1 .pie {
+    background-color: #B17BF5;
+    transform: rotate(90deg);
+}
+
+#pieSlice2 {
+    transform: rotate(149deg);
+}
+
+#pieSlice2 .pie {
+    background-color: #F55696;
+    transform: rotate(301deg);
+}
+
+#pieSlice3 {
+    transform: rotate(190deg);
+}
+
+#pieSlice3 .pie {
+    background-color: #F65E59;
+    transform: rotate(304deg);
+}
+
+div.piecenteric {
+background-color: white;
+border-radius: 300px 300px 0 0;
+height: 200px;
+margin-left: 172px;
+margin-top: 150px;
+position: absolute;
+width: 355px;
+z-index: 1;
+}
