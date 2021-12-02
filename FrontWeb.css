@@ -6,8 +6,19 @@ body {
   width: 200px;
   height: 200px;
 }
-
+#color1 {
+  background-color: rgb(30, 3, 95);
+}
+#color2 {
+  background-color: rgb(74, 0, 248);
+}
 #color3 {
+  background-color: rgb(90, 27, 238);
+}
+#color4 {
+  background-color: rgb(112, 55, 243);
+}
+#color5 {
   background-color: rgb(164, 131, 241);
 }
 
