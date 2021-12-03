@@ -9,6 +9,7 @@ html, body {
   display: flex;
   justify-content: left;
   align-items: left;
+  background-color: lightblue;
 }
 
 .container {
@@ -45,7 +46,7 @@ html, body {
 }
 
 .layer:nth-child(2) {
-  background-color: hotpink;
+  background-color: rgb(253, 115, 184);
   transform: translateX(250px) rotate(0deg);
 }
 
@@ -54,7 +55,7 @@ html, body {
 }
 
 .layer:nth-child(3) {
-  background-color: darkcyan;
+  background-color: rgb(0, 161, 161);
   transform: translateX(250px) rotate(230deg);
 }
 
@@ -63,18 +64,34 @@ html, body {
 }
 
 .layer:nth-child(4) {
-  background-color: darkcyan;
+  background-color: rgb(0, 161, 161);
   transform: translateX(250px) rotate(180deg);
 }
 
 .layer:nth-child(4)::before {
   transform: rotate(20deg);
 }
-
-.footer{
-        height: 30px;
-        margin: 25px;
-    }
     
-  a { color: #4a0c55; }
-  
+a { color: rgb(44, 45, 121); }
+
+.btnWomen {
+  border: none;
+  background-color: hotpink;
+  padding: 5px 40px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btnMen {
+  border: none;
+  background-color: darkcyan;
+  padding: 5px 56px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btnWomen:hover {
+  background: rgb(255, 132, 194);
+}
+.btnMen:hover {
+  background: rgb(0, 175, 175);
+  }

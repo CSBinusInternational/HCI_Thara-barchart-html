@@ -1,6 +1,10 @@
+html, head, body {
+  background-color: lightblue;
+}
+
 .graph {
   padding: 0;
-  width: 50%;
+  width: 100%;
   float: left;
   border-bottom: 1px solid #888;
 }
@@ -12,17 +16,53 @@
   clear: both;
 }
 
-.fruit {
+.elder {
   display: block;
-  padding: 1em;
+  padding: 2em;
   position: relative;
   color: #222;
-  background: #66EE99;
+  background: #667fee;
+  font-weight: bold;
+  float: left;
+}
+
+.adult {
+  display: block;
+  padding: 2em;
+  position: relative;
+  color: #222;
+  background: #6668ee;
+  font-weight: bold;
+  float: left;
+}
+.teen {
+  display: block;
+  padding: 2em;
+  position: relative;
+  color: #222;
+  background: #7f66ee;
+  font-weight: bold;
+  float: left;
+}
+
+.child {
+  display: block;
+  padding: 1.3em;
+  position: relative;
+  color: #222;
+  background: #a166ee;
   font-weight: bold;
   float: left;
 }
 
 .total {
-  margin-top: 15px;
+  margin-top: 10px;
   float: right;
+}
+
+.percent{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 25px;
+  float: left;
 }
