@@ -9,11 +9,7 @@ html, body, table, input, select, textarea{
   
   .graph caption {
 	  font: bold 150%/120% times new roman,sans-serif;
-	  padding-bottom: 0.33em;
-  }
-  
-  .graph tbody th {
-	  text-align: right;
+	  padding-bottom: 0.5em;
   }
   
   @supports (display:grid) {
@@ -37,29 +33,20 @@ html, body, table, input, select, textarea{
 			  position: relative;
 			  display: grid;
 			  grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
-			  column-gap: 2.5%;
+			  column-gap: 10%;
 			  align-items: end;
 			  height: 100%;
-			  margin: 3em 0 1em 2.8em;
-			  padding: 0 1em;
+			  margin: 1em 1em 1em 1em;
+			  padding: 0 5em;
 			  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 			  background:
 		repeating-linear-gradient(
 				  180deg,
 				  rgba(37, 21, 126, 0.692) 0,
-				  rgba(37, 21, 126, 0.7) 1px,
+				  rgba(37, 21, 126, 0.7) 0,
 				  transparent 1px,
 				  transparent 20%
 			  );
-		  }
-  
-		  .graph tbody: before,
-		  .graph tbody: after {
-			  position: absolute;
-			  left: -3.2em;
-			  width: 2.8em;
-			  text-align: right;
-			  font: bold 80%/120% times new roman,sans-serif;
 		  }
   
 		  .graph tr {
@@ -67,26 +54,16 @@ html, body, table, input, select, textarea{
 			  display: block;
 		  }
   
-		  .graph tr:hover {
-			  z-index: 999;
-		  }
-  
-		  .graph th,
-		  .graph td {
+		  .graph th, .graph td {
 			  display: block;
 			  text-align: center;
 		  }
   
 		  .graph tbody th {
 			  position: absolute;
-			  top: -3em;
-			  left: 0;
 			  width: 100%;
 			  font-weight: normal;
 			  text-align: center;
-		white-space: nowrap;
-			  text-indent: 0;
-			  transform: rotate(-45deg);
 		  }
   
 		  .graph tbody th: after {
@@ -97,12 +74,12 @@ html, body, table, input, select, textarea{
 			  width: 100%;
 			  height: 100%;
 			  background: rgb(146, 105, 199);
-			  border-radius: 0.5em 0.5em 0 0;
+			  border-radius: 0.5em 0.5em 0.5em 0.5em;
 			  transition: background 0.5s;
 		  }
   
 		  .graph tr:hover td {
-			  opacity: 0.7;
+			  opacity: 0.8;
 		  }
   
 		  .graph td span {
